@@ -24,10 +24,10 @@ public class FetchTweets {
 
     public static void main(String arg[]) throws Exception {
         Properties props = new Properties();
-        props.setProperty(TwitterSource.CONSUMER_KEY, "b9cTDeWQgJcNNdd8MXYB0YH7x");
-        props.setProperty(TwitterSource.CONSUMER_SECRET, "t1MsbgpF7JtDCp3NhgUNDM4XMUPvShoslDOvUsIIE4fM4V4NfN");
-        props.setProperty(TwitterSource.TOKEN, "301389285-WbHopdT9vLgV1kKWpnj1DmxLAL5dqpXjHhIQDmPS");
-        props.setProperty(TwitterSource.TOKEN_SECRET, "b1unIS1Hy1z2X27lqWQW0iswE0vYggS1MhjoxVImq82Bd");
+        props.setProperty(TwitterSource.CONSUMER_KEY, "");
+        props.setProperty(TwitterSource.CONSUMER_SECRET, "");
+        props.setProperty(TwitterSource.TOKEN, "");
+        props.setProperty(TwitterSource.TOKEN_SECRET, "");
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
